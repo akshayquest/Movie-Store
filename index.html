@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Movie Store Inc.</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="movieList" style="display: block;">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Movie Store</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron">
+                <h3 class="text-center">Search For Any Movie</h3>
+                <form id="searchForm">
+                    <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div id="movies" class="row">
+            </div>
+        </div>
+
+    </div>
+    <div id="movieDetails" style="display:none;">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <h2>Movie Details</h2>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div id="movie" class="well"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Movie Store Inc. by Akshay</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
